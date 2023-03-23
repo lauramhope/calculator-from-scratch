@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Calculator From Scratch</title>
+</head>
+<body>
+    <h1>New & Improved Calculator</h1>
+
+    <form id="calculatorNew">
+      <label for="num1">First Number</label>
+      <input id="num1" type="text" name="num1"><br>
+      <label for="num2">Second Number</label>
+      <input id="num2" type="text" name="num2">
+    
+      <label><br>
+        <input type="radio" name="operator" value="add" checked>
+        Add
+      </label>
+      <label><br>
+        <input type="radio" name="operator" value="subtract">
+        Subtract
+      </label><br>
+      <label>
+        <input type="radio" name="operator" value="multiply">
+        Multiply
+      </label><br>
+      <label>
+        <input type="radio" name="operator" value="divide">
+        Divide
+      </label><br>
+
+      <button type="submit" class="btn">Calculate!</button>
+    </form>
+
+    <h2>Answer:</h2>
+    <p id="answer"></p>
+  
+</body>
+</html>
